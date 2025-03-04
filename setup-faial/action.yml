@@ -1,0 +1,17 @@
+name: 'Setup faial'
+description: Sets up Faial, a static analyzer for CUDA kernels.
+
+author: 'cogumbreiro'
+branding:
+  icon: 'cpu'
+  color: 'purple'
+inputs:
+  version:
+    description: |
+      Specifies a specific version of faial, which is given by the branch name,
+      or by the commit hash id. The default (`main`) represents the latest
+      version.
+    default: 'main'
+runs:
+  using: 'node20'
+  main: 'index.js'
