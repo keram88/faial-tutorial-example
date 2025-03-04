@@ -3,7 +3,7 @@ const tc = require('@actions/tool-cache');
 
 function getBundle(branch) {
     let file = "faial.tar.bz2";
-    let url = "https://gitlab.com/umb-svl/faial/-/jobs/8977975014/artifacts/file/bundle/faial.tar.bz2"
+    let url = "https://gitlab.com/umb-svl/faial/-/jobs/8977975014/artifacts/raw/bundle/faial.tar.bz2"
     return { url: url, file: file };
 }
 
