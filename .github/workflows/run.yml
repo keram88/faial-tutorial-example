@@ -8,7 +8,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v1
     - name: Setup faial
-      uses: cogumbreiro/setup-faial@v1.0
+      uses: https://github.com/keram88/setup-faial.git
     - name: Check saxpy.cu
       run: |
         faial-drf saxpy.cu
