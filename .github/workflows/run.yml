@@ -9,8 +9,6 @@ jobs:
       uses: actions/checkout@v1
     - name: Setup faial
       run: ls
-      run: ls ..
-      uses: ../setup-faial/action.yml
     - name: Check saxpy.cu
       run: |
         faial-drf saxpy.cu
